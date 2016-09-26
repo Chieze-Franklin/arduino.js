@@ -1,0 +1,11 @@
+{
+  "name": "Arduino",
+  "version": "0.0.1",
+  "description": "the arduino board",
+  "main": "arduino.js",
+  "dependencies": {
+    "board": "^0.0.1"
+  },
+  "author": "Chieze Franklin",
+  "license": "ISC"
+}

@@ -113,5 +113,18 @@ module.exports = {
 	pinMode : function(pin, mode){
 		board.setPinMode(pin, mode);
 	},
-	tone: __tone
+	tone: __tone,
+
+	Serial: {
+		begin: function(baud){
+			//baud is how many bits per second are transmitted
+		},
+		print: function(message){
+			console.log(message);
+		},
+		println: function(message){
+			//console.log(message + '\n');
+			this.print(message + '\n');
+		}
+	}
 };
